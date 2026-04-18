@@ -291,7 +291,7 @@ curl -s -X POST -H "X-N8N-API-KEY: $N8N_API_KEY" -H "Content-Type: application/j
 **方法：直接编辑 jobs.json 文件**
 
 ```
-路径：C:\Users\lujun\.openclaw\cron\jobs.json
+路径：$USER_HOME_PATH.openclaw\cron\jobs.json
 ```
 
 在 jobs.json 中添加 cron 任务，通过 `curl.exe POST` 触发 n8n webhook URL。
